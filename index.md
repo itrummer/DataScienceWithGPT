@@ -7,3 +7,8 @@ This Web site links to resources for the book "Data Science with GPT" by Immanue
 ### Chapter 1
 
 ### Chapter 2
+
+| Resource | Description |
+| --- | --- |
+| [Link to ChatGPT](https://chat.openai.com/) | Link to the ChatGPT Web interface by OpenAI |
+| [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
