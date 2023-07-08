@@ -7,6 +7,7 @@ This Web site links to resources for the book "Data Science with GPT" by Immanue
 | Resource | Description |
 | --- | --- |
 | [Prompt](https://docs.google.com/document/d/1f3M2PV5mgy1kyg3J5C4QiiBqcsxxz4SBXYzHSJQ0NEw/edit?usp=sharing)|  Example prompt for product review classification |
+| [Template](https://docs.google.com/document/d/1eDnrMe1G5UapYswZrIdRDxlEQTTKupVVyWUaQR7pOZM/edit?usp=sharing)| Prompt template for product review classification |
 
 ## Chapter 2
 
