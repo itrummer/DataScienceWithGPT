@@ -26,5 +26,5 @@ This Web site links to resources for the book "Data Science with GPT" by Immanue
 
 | Resource | Description |
 | --- | --- |
-| [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Transformer model |
+| [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Roberta Transformer model |
 
