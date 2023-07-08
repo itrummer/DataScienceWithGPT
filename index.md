@@ -4,7 +4,9 @@ This Web site links to resources for the book "Data Science with GPT" by Immanue
 
 ## Chapter 1
 
-Chapter 1 has no associated online resources.
+| Resource | Description |
+| --- | --- |
+| [Example Prompt](https://docs.google.com/document/d/1f3M2PV5mgy1kyg3J5C4QiiBqcsxxz4SBXYzHSJQ0NEw/edit?usp=sharing)|  Example prompt for product review classification |
 
 ## Chapter 2
 
@@ -24,5 +26,5 @@ Chapter 1 has no associated online resources.
 
 | Resource | Description |
 | --- | --- |
-| [https://huggingface.co/xlm-roberta-base](Roberta XLM) | Example description of Transformer model |
+| [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Transformer model |
 
