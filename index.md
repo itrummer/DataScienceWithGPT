@@ -6,21 +6,21 @@ This Web site links to resources for the book "Data Science with GPT" by Immanue
 
 | Resource | Description |
 | --- | --- |
-| [Example Prompt](https://docs.google.com/document/d/1f3M2PV5mgy1kyg3J5C4QiiBqcsxxz4SBXYzHSJQ0NEw/edit?usp=sharing)|  Example prompt for product review classification |
+| [Prompt](https://docs.google.com/document/d/1f3M2PV5mgy1kyg3J5C4QiiBqcsxxz4SBXYzHSJQ0NEw/edit?usp=sharing)|  Example prompt for product review classification |
 
 ## Chapter 2
 
 | Resource | Description |
 | --- | --- |
 | [ChatGPT](https://chat.openai.com/) | Link to the ChatGPT Web interface by OpenAI |
-| [Example Review](https://docs.google.com/document/d/1LKVnR62O5iIzJNS0urvGDuc5GQ9zLkT-XRvrwhVNMpg/edit?usp=sharing)| Example review of BananaBook laptop|
+| [Review](https://docs.google.com/document/d/1LKVnR62O5iIzJNS0urvGDuc5GQ9zLkT-XRvrwhVNMpg/edit?usp=sharing)| Example review of BananaBook laptop|
 | [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
 
 ## Chapter 3
 
 | Resource | Description |
 | --- | --- |
-| [Visualizing Attention](https://github.com/jessevig/bertviz) | Notebook for visualizing attention in the BERT model|
+| [Visualizations](https://github.com/jessevig/bertviz) | Notebook for visualizing attention in the BERT model|
 
 ## Chapter 4
 
