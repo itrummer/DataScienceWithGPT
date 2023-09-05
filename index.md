@@ -29,3 +29,12 @@ This Web site links to resources for the book "AI Assisted Data Science" by Imma
 | --- | --- |
 | [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Roberta Transformer model |
 
+## Chapter 5
+
+| Resource | Description |
+| --- | --- |
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing1.py) | Listing available GPT models|
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing3.py) | Making GPT tell us a story|
+| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing5.py) | Customizing story generation via parameters|
+| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing6.py) | Text completion with OpenAI's chat models|
+| [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing7.py) | Example output of chat completion|
