@@ -40,3 +40,15 @@ This Web site links to resources for the book "AI Assisted Data Science" by Imma
 | [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing5.py) | Customizing story generation via parameters|
 | [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing6.py) | Text completion with OpenAI's chat models|
 | [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing7.py) | Example output of chat completion|
+
+## Chapter 6
+
+| Resource | Description |
+| --- | --- |
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing1.py) | Classifying text by underlying sentiment |
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing2) | Extract from example prompt, classifying one movie review |
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing3.py) | Extracting structured data from text documents |
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing4) | Extract from example prompt, extracting data from biographies |
+| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing5) | Example result when extracting tabular data from biographies |
+| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing6.py) | Clustering text documents via their embedding vectors |
+| [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing7.py) | Example result when using GPT for text embedding |
