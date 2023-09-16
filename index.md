@@ -1,6 +1,6 @@
-# AI Assisted Data Science
+# AI-Assisted Data Science
 
-This Web site links to resources for the book "AI Assisted Data Science" by Immanuel Trummer, ordered by chapter. For each resource, you find a link and a short description.
+This Web site links to resources for the book "AI-Assisted Data Science" by Immanuel Trummer, ordered by chapter. For each resource, you find a link and a short description.
 
 ## Chapter 1
 
