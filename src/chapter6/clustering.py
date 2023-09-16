@@ -25,6 +25,7 @@ def get_embedding(text):
             response = openai.Embedding.create(
                 model='text-embedding-ada-002',
                 input=text)
+            print(response)
             return response['data'][0]['embedding']
         except:
             time.sleep(nr_retries * 2)

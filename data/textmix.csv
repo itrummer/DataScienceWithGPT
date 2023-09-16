@@ -1,0 +1,310 @@
+text,type
+"Let the bird of loudest lay
+On the sole Arabian tree
+Herald sad and trumpet be,
+To whose sound chaste wings obey.
+
+But thou shrieking harbinger,
+Foul precurrer of the fiend,
+Augur of the fever's end,
+To this troop come thou not near.
+
+From this session interdict
+Every fowl of tyrant wing,
+Save the eagle, feather'd king;
+Keep the obsequy so strict.
+
+Let the priest in surplice white,
+That defunctive music can,
+Be the death-divining swan,
+Lest the requiem lack his right.
+
+And thou treble-dated crow,
+That thy sable gender mak'st
+With the breath thou giv'st and tak'st,
+'Mongst our mourners shalt thou go.
+
+Here the anthem doth commence:
+Love and constancy is dead;
+Phoenix and the Turtle fled
+In a mutual flame from hence.
+
+So they lov'd, as love in twain
+Had the essence but in one;
+Two distincts, division none:
+Number there in love was slain.
+
+Hearts remote, yet not asunder;
+Distance and no space was seen
+'Twixt this Turtle and his queen:
+But in them it were a wonder.
+
+So between them love did shine
+That the Turtle saw his right
+Flaming in the Phoenix' sight:
+Either was the other's mine.
+
+Property was thus appalled
+That the self was not the same;
+Single nature's double name
+Neither two nor one was called.
+
+Reason, in itself confounded,
+Saw division grow together,
+To themselves yet either neither,
+Simple were so well compounded;
+
+That it cried, ""How true a twain
+Seemeth this concordant one!
+Love has reason, reason none,
+If what parts can so remain.""
+
+Whereupon it made this threne
+To the Phoenix and the Dove,
+Co-supremes and stars of love,
+As chorus to their tragic scene:
+
+                 threnos
+
+Beauty, truth, and rarity,
+Grace in all simplicity,
+Here enclos'd, in cinders lie.
+
+Death is now the Phoenix' nest,
+And the Turtle's loyal breast
+To eternity doth rest,
+
+Leaving no posterity:
+'Twas not their infirmity,
+It was married chastity.
+
+Truth may seem but cannot be;
+Beauty brag but 'tis not she;
+Truth and beauty buried be.
+
+To this urn let those repair
+That are either true or fair;
+For these dead birds sigh a prayer.",Poem
+"Sir Charles into my chamber coming in,
+When I was writing of my Fairy Queen;
+I praysaid hewhen Queen Mab you do see
+Present my service to her Majesty:
+And tell her I have heard Fame's loud report
+Both of her beauty and her stately court.
+When I Queen Mab within my fancy viewed,
+My thoughts bowed low, fearing I should be rude;
+Kissing her garment thin which fancy made,
+I knelt upon a thought, like one that prayed;
+And then, in whispers soft, I did present
+His humble service which in mirth was sent;
+Thus by imagination I have been
+In Fairy court and seen the Fairy Queen.",Poem
+"Our vice runs beyond all that old men saw,
+And far authentically above our laws,
+And scorning virtues safe and golden mean,
+Sits uncontrolled upon the high extreme.
+Circes, thy monsters painted out the hue,
+Of feigned filthiness, but ours is true.
+Our vice puts down all proverbs and all themes,
+Our vice excels all fables and all dreams.",Poem
+"When you are old and grey and full of sleep,
+And nodding by the fire, take down this book,
+And slowly read, and dream of the soft look
+Your eyes had once, and of their shadows deep;
+
+How many loved your moments of glad grace,
+And loved your beauty with love false or true,
+But one man loved the pilgrim soul in you,
+And loved the sorrows of your changing face;
+
+And bending down beside the glowing bars,
+Murmur, a little sadly, how Love fled
+And paced upon the mountains overhead
+And hid his face amid a crowd of stars.",Poem
+"Give me hunger,
+O you gods that sit and give
+The world its orders.
+Give me hunger, pain and want,
+Shut me out with shame and failure
+From your doors of gold and fame,
+Give me your shabbiest, weariest hunger!
+
+But leave me a little love,
+A voice to speak to me in the day end,
+A hand to touch me in the dark room
+Breaking the long loneliness.
+In the dusk of day-shapes
+Blurring the sunset,
+One little wandering, western star
+Thrust out from the changing shores of shadow.
+Let me go to the window,
+Watch there the day-shapes of dusk
+And wait and know the coming
+Of a little love.",Poem
+"neuhaus@vier.informatik.uni-kl.de (Stephan Neuhaus (HiWi Mattern)) writes:
+
+>[Lots of stuff.]
+
+I hate to follow up to my own posting, but I should perhaps clarify
+some things so I won't get flamed.
+
+First of all, when I'm talking about ``factoring the modulus'' or a
+``breakthrough in factoring'', what I really mean is a breakthrough in
+the cryptanalysis of RSA.  I know that factoring and breaking RSA are
+not proven to be equivalent; it's just so damn convenient not to
+repeat this every time.
+
+I also have to admit that I don't really know if the ``non-group''
+property of a cipher is essential only for key chaining.  I have
+thought about it a little while, but I can't find a way that a
+cryptanalyst could exploit a group structure.  That, of course, means
+nothing at all.
+
+Then I wrote,
+
+>Please note that as long as it is much harder to factor a RSA modulus
+>than it is to generate it, the increase in computer speed alone will
+>keep key lengths and modulus factoring in lock-step, i.e., people will
+>simply start using longer moduli and still be safe.
+
+What I meant was that as long as the only advantage of the
+cryptanalyst is a faster computer, then we will probably have RSA for
+a long time to come, because even if 1024-bit moduli somehow could be
+broken with fast computers (not with a new algorithm), then people
+would simply use longer moduli.  Both users and cryptanalysts benefit
+from better technology in the same way.
+
+Hope this keeps the flames away...  Have fun.
+
+-- 
+Stephan <neuhaus@informatik.uni-kl.de>
+sig closed for inventory.  Please leave your pickaxe outside.
+PGP 2.2 public key available on request.  Note the expiration date.",Email
+"In article <2bb29f4c@mash.boulder.co.us: rmashlan%mash@csn.org (Robert Mashlan) writes:
+:tarnold@vnet.IBM.COM (Todd W. Arnold) said in article <19930322.101356.617@almaden.ibm.com>:
+:>It's OK as long as you trust the end-user to stay out of your application
+:>program - or as long as it runs in a system where the user can't get to it.
+:>Otherwise, you can't stop him from finding the ""load a module"" code in your
+:>program, and simply bypassing the check for a valid module.  The devious user
+:>can either modify the object code before running the program, or he can run
+:>the program under a debugger and change the instructions in memory.
+:There is a way to foil debuggers, by clearing the single step 
+:interrupt, on which a debugger depends, every few instructions in 
+:the sensitive areas of the code.
+
+This assumes the person is using the hardware debug instruction of an X86
+type processor.  It can be negated by NOP'ing the clear debug instruction,
+or by running the code on a machine simulator, like one I wrote as a senior
+project in college.  It can bypass and trace practically anything one could
+write in software.  Kind of like being on a Star Trek Holideck :-).
+
+-- 
+Kenneth Ng
+Please reply to ken@eies2.njit.edu for now.
+""All this might be an elaborate simulation running in a little device sitting
+on someone's table"" -- J.L. Picard: ST:TNG",Email
+"cuffell@spot.Colorado.EDU (Tim Cuffel) writes:
+
+> There is no guarantee that the deleted space would be overwritten during
+> optimization.  Likely, but no guarantee.  A quicker and more secure method
+> would be a batch file that overwrote all of your free space.  For example
+> fill.bat:
+> 	echo %1 >> out
+> 	fill.bat
+> (This is off the top of my head.  #include <std_disclaimer.h>)
+
+It is MUCH easier, faster, and probably even more secure to use Norton
+Utilties 6.0 (I'm talking IBM PC here) and to tell WipeInfo to (a)
+clean the free disk space and (b) clean the slack space at the end of
+the files. Use to Government standard option for more careful
+overwriting...
+
+Regards,
+Vesselin
+-- 
+Vesselin Vladimirov Bontchev          Virus Test Center, University of Hamburg
+Tel.:+49-40-54715-224, Fax: +49-40-54715-226      Fachbereich Informatik - AGN
+< PGP 2.2 public key available on request. > Vogt-Koelln-Strasse 30, rm. 107 C
+e-mail: bontchev@fbihh.informatik.uni-hamburg.de    D-2000 Hamburg 54, Germany",Email
+"Weather: mostly cloudy, high 64, low 49
+Moon-Phase: waxing gibbous (99% of full)
+
+In article <1993Apr2.050451.7866@ucsu.Colorado.EDU> cuffell@spot.Colorado.EDU
+(Tim Cuffel) writes:
+>How about this.  I create a bunch of sets of random data, and encrypt it.  I 
+>keep only one of the sets of random data around, to show that I encypt random
+>data for kicks.  The rest, I delete with their keys.  I tell all my friends.
+>I think this establishes reasonable doubt about the contents of any encrypted
+>files, and my ability to provides keys.  Since anyone could do this, any law
+>that forces a user to provide keys on demand is worthless.
+
+The law is much worse than worthless.  It gives police the power to put
+innocent people in jail because they (the police) find something they don't
+understand.  Most police don't know what the return key does, never mind the
+difference between a core file and classified military secrets.
+
+There are plenty of scenarios where the user would have no idea what something
+is either.  It could be uninitialized junk.  The burden of proof is on the
+user to show that it's something a normal upstanding citizen should have.  No
+one should ever be put in that situation, especially in America.
+
+What's disgusting about this is how easily most people go along with it, to
+provide a bargaining chip against some hypothetical *alleged* child molester
+or drug dealer, or whatever bad thing is in style at the time.  Basically most
+people don't have a clear distinction between criminals and suspects.
+
+As an analogy, it's like they find a loose screw in your house, and they
+insist that you're building a bomb or machine gun.  They ask you where it came
+from (like you'd know), and ask you to prove your claim.  When you explain it
+in such simple terms, people may start to get the idea.
+
+As a matter of fact, i do keep random files on my disk.  The reason is,
+without special-purpose hardware, it takes a long time to generate good random
+bits.  I have programs that crank out a couple bits per minute, which is
+pretty conservative, but over time that's more than i need.
+
+If you think about it, there's no point in actually encrypting random data,
+because it just gives you different random data.  If you want some data to
+look like an encrypted file, you just put an appropriate header on it.  If
+enough people do this, some of them will be put in jail.
+
+When you get arrested and the police ask for your keys, you can tell them it's
+just random junk, although of course they won't believe you.  While you're
+sitting in jail, you can take consolation in the fact that the government will
+burn a few CPU-years trying to find something that's not there.
+
+--
+Joe Keane, amateur cryptologist
+jgk@osc.com (uunet!amdcad!osc!jgk)",Email
+"rja14@cl.cam.ac.uk (Ross Anderson) writes:
+
+>In article <1993Apr2.050451.7866@ucsu.Colorado.EDU>, cuffell@spot.Colorado.EDU 
+>(Tim Cuffel) writes:
+
+>This suggests a new PC security product design approach - first fill the hard
+>drive with 50% random files and 50% files encrypted under a number of known 
+>keys. Then whenever a new secret file is created, you delete a random file and
+>replace it with real encrypted data. New non-secret files are encrypted under
+>a known key.
+
+   Better yet, instead of thrashing around on the DOS file system, take
+it a step further.  Write yourself a minimal ""file system"" program that
+is used to create/delete files, en/decrypt them to ramdisk, list a
+directory. Put the util, password protected, on a floppy.
+
+   The catch is that the storage space used by this util is NOT part
+of the DOS file system.  Instead, defrag your disk, thus packing all
+allocated clusters into clusters 0-n.  Then use the back end of the
+partition to hold your 'stealth' file system.  Or, leave a small 2nd
+partition on the disk that is not assigned to DOS.  Another approach
+might be to use a directory that contains a set of invariant files (DOS
+system files, for instance).  Due to DOS allocating a minimum storage 
+unit of a ""cluster"" there is unused physical space on the disk between
+the tail end of each file and the end of its associated cluster. These
+dead spaces could be concatenated and used to hold your stealth file
+system.
+
+   Now you have a situation where no encrypted data ""appears"" on your
+disk at all :-). 
+-- 
+Ray Berry kb7ht ray@ole.cdac.com  rjberry@eskimo.com  73407.3152@compuserve.com",Email

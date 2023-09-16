@@ -56,6 +56,7 @@ def classify(text):
         name of class.
     """
     prompt = create_prompt(text)
+    print(prompt)
     label = call_llm(prompt)
     return label
 
