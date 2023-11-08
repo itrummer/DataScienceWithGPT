@@ -1,0 +1,8 @@
+Neo4j Database:
+Node labels: Movie, Person
+Relationship types: Acted_In, Directed,
+Follows, Produced, Reviewed, Wrote
+Property keys: born, name, rating, released
+roles, summary, tagline, title
+How many movies are stored?
+Cypher Query:

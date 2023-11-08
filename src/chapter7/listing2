@@ -1,0 +1,8 @@
+Database:
+create table games(rank int, name text, platform text,
+year int, genre text, publisher text, americasales numeric,
+eusales numeric, japansales numeric, othersales numeric,
+globalsales numeric);
+Translate this question into SQL query:
+How many games in total?
+SQL Query:

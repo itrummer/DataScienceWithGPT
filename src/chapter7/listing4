@@ -1,0 +1,75 @@
+Enter question:How many games are stored in total?
+SQL: SELECT COUNT(*) FROM games;
+Answer: (16599,)
+Enter question:How many games did Activision create?
+SQL: SELECT COUNT(*) FROM games WHERE publisher = 'Activision'
+Answer: (975,)
+Enter question:Name one game that was released in 2017!
+SQL: SELECT name
+FROM games
+WHERE year = 2017
+LIMIT 1
+Answer: ('Phantasy Star Online 2 Episode 4: Deluxe Package',)
+Enter question:How many games were released for each genre?
+SQL: SELECT genre, COUNT(*) as num_games
+FROM games
+GROUP BY genre
+Answer: ('Action', 3316)
+('Adventure', 1286)
+('Fighting', 848)
+('Genre', 1)
+('Misc', 1739)
+('Platform', 886)
+('Puzzle', 582)
+('Racing', 1249)
+('Role-Playing', 1488)
+('Shooter', 1310)
+('Simulation', 867)
+('Sports', 2346)
+('Strategy', 681)
+Enter question:Which three games sold more copies in Japan than in Europe?
+SQL: SELECT name
+FROM games
+WHERE japansales > eusales
+ORDER BY japansales DESC
+LIMIT 3;
+Answer: ('Name',)
+('Pokemon Red/Pokemon Blue',)
+('Pokemon Gold/Pokemon Silver',)
+Enter question:Break down game sales in America by the platform!
+SQL: SELECT platform, sum(americasales) AS total_sales
+FROM games
+GROUP BY platform
+Answer: ('2600', 90.59999999999992)
+('3DO', 0)
+('3DS', 78.86999999999996)
+('DC', 5.43)
+('DS', 390.7099999999977)
+('GB', 114.32000000000001)
+('GBA', 187.54000000000033)
+('GC', 133.46000000000004)
+('GEN', 19.27)
+('GG', 0)
+('N64', 139.02000000000015)
+('NES', 125.94000000000005)
+('NG', 0)
+('PC', 93.2800000000005)
+('PCFX', 0)
+('PS', 336.509999999998)
+('PS2', 583.8399999999925)
+('PS3', 392.2599999999998)
+('PS4', 96.79999999999998)
+('PSP', 108.98999999999975)
+('PSV', 16.200000000000006)
+('Platform', 0.0)
+('SAT', 0.7200000000000001)
+('SCD', 1)
+('SNES', 61.22999999999998)
+('TG16', 0)
+('WS', 0)
+('Wii', 507.7099999999991)
+('WiiU', 38.31999999999999)
+('X360', 601.0499999999992)
+('XB', 186.6900000000008)
+('XOne', 83.19000000000003)
+Enter question:quit
