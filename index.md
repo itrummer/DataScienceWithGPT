@@ -61,3 +61,9 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | Resource | Description |
 | --- | --- |
 | [Games](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/videogames.csv) | Tabular data set describing video game sales|
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing1.py) | Translating text questions about video games to SQL queries|
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing2) | Example prompt for translating question to SQL query|
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing3.py) | Translating questions to SQL queries on arbitrary tabular data|
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing4) | Example interaction with natural language query interface|
+| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing5) | Example prompt for translating questions into Cypher queries|
+| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing6.py) | Translating questions about movies into Cypher queries|
