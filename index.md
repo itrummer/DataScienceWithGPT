@@ -55,3 +55,15 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Textmix.csv](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/textmix.csv) | Mix of poems and emails, to be used for document clustering |
 | [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing6.py) | Clustering text documents via their embedding vectors |
 | [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter6/listing7.py) | Example result when using GPT for text embedding |
+
+## Chapter 7
+
+| Resource | Description |
+| --- | --- |
+| [Games](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/videogames.csv) | Tabular data set describing video game sales|
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing1.py) | Translating text questions about video games to SQL queries|
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing2) | Example prompt for translating question to SQL query|
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing3.py) | Translating questions to SQL queries on arbitrary tabular data|
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing4) | Example interaction with natural language query interface|
+| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing5) | Example prompt for translating questions into Cypher queries|
+| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/907fcd98a1f62c7cde2b5255be62cacd2d8ae871/src/chapter7/listing6.py) | Translating questions about movies into Cypher queries|
