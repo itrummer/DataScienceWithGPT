@@ -17,8 +17,9 @@ def transcribe(audio_path):
         transcribed text.
     """
     with open(audio_path, 'rb') as audio_file:
-        return openai.Audio.transcribe(
-            'whisper-1', audio_file)
+        transcription = openai.Audio.transcribe(
+            file=audio_file, model='whisper-1')
+        return transcription.text
 
 
 if __name__ == '__main__':
