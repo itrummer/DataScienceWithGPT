@@ -17,11 +17,11 @@ def extract_frames(video_path):
         video_path: path to video file.
     
     Returns:
-        list of video frames.
+        list of first ten video frames.
     """
     video = cv2.VideoCapture(video_path)
     frames = []
-    while video.isOpened():
+    while video.isOpened() and len(frames) <= 10:
         success, frame = video.read()
         if not success:
             break
