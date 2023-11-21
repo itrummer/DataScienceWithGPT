@@ -5,6 +5,7 @@ Created on Nov 20, 2023
 '''
 import argparse
 import openai
+import playsound
 import requests
 import scipy.io.wavfile
 import sounddevice
@@ -95,9 +96,9 @@ def generate_speech(ai_key, speech_text):
     }
     payload = {'model': 'tts-1', 'input':speech_text, 'voice':'alloy'}
     response = requests.post(
-        'https://api.openai.com/v1/chat/completions', 
+        'https://api.openai.com/v1/audio/speech', 
         headers=headers, json=payload)
-    return response
+    return response.content
 
 if __name__ == '__main__':
     
@@ -123,5 +124,8 @@ if __name__ == '__main__':
         translated = call_llm(prompt)
         print(f'Translated text: {translated}')
         
-        response = generate_speech(args.openaikey, translated)
-        print(response)
+        speech = generate_speech(args.openaikey, translated)
+        with open('translation.mp3', 'wb') as file:
+            file.write(speech)
+            
+        playsound.playsound('translation.mp3')
