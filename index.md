@@ -33,13 +33,13 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 
 | Resource | Description |
 | --- | --- |
-| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing1.py) | Listing available GPT models|
-| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/6745e90055e641224d1a895af598e45ac9112bb3/src/chapter5/listing2.py) | Example output listing available models |
-| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing3.py) | Making GPT tell us a story (text completion)|
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/6745e90055e641224d1a895af598e45ac9112bb3/src/chapter5/listing4.py) | Extract of output for text completion|
-| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing5.py) | Customizing story generation via parameters|
-| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing6.py) | Text completion with OpenAI's chat models|
-| [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/db74c2fb161e2a51c8462239102220812904efb9/src/chapter5/listing7.py) | Example output of chat completion|
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing1.py) | Listing available GPT models|
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing2.py) | Example output listing available models |
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing3.py) | Making GPT tell us a story (text completion)|
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing4.py) | Extract of output for text completion|
+| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing5.py) | Customizing story generation via parameters|
+| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing6.py) | Text completion with OpenAI's chat models|
+| [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter5/listing7.py) | Example output of chat completion|
 
 ## Chapter 6
 
