@@ -45,11 +45,11 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 
 | Resource | Description |
 | --- | --- |
-| [Reviews.csv](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/reviews.csv) | Small set of movie reviews for sentiment classification |
+| [Reviews.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews.csv) | Small set of movie reviews for sentiment classification |
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter6/listing1.py) | Classifying text by underlying sentiment |
-| [Biographies.csv](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/biographies.csv) | Small collection of biographies for text extraction |
+| [Biographies.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/biographies.csv) | Small collection of biographies for text extraction |
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter6/listing2.py) | Extracting structured data from text documents |
-| [Textmix.csv](https://github.com/itrummer/DataScienceWithGPT/blob/d9ee99c45aad57b9be7ce7193bd3e2be036c965e/data/textmix.csv) | Mix of poems and emails, to be used for document clustering |
+| [Textmix.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/textmix.csv) | Mix of poems and emails, to be used for document clustering |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter6/listing3.py) | Clustering text documents via their embedding vectors |
 | [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter6/listing4.py) | Example result when using GPT for text embedding |
 
