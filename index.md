@@ -64,3 +64,14 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing4) | Example interaction with natural language query interface|
 | [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing5) | Example prompt for translating questions into Cypher queries|
 | [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing6.py) | Translating questions about movies into Cypher queries|
+
+## Chapter 8
+
+| Resource | Description |
+| --- | --- |
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing1.py) | Answering questions about images |
+| [Fruit 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/fruit1.jpg) | A JPEG image of an apple |
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing2.py) | Tagging people in images |
+| [Tagging](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/peoplepictures.zip) | Pictures of people for image tagging |
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing3.py) | Generating suitable titles for videos |
+| [Cars](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/cars.mp4) | A vide of cars on a road |
