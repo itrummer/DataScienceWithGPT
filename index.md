@@ -74,4 +74,4 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing2.py) | Tagging people in images |
 | [Tagging](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/peoplepictures.zip) | Pictures of people for image tagging |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing3.py) | Generating suitable titles for videos |
-| [Cars](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/cars.mp4) | A vide of cars on a road |
+| [Cars](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/cars.mp4) | A video of cars on a road |
