@@ -75,3 +75,12 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Tagging](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/peoplepictures.zip) | Pictures of people for image tagging |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter8/listing3.py) | Generating suitable titles for videos |
 | [Cars](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/cars.mp4) | A video of cars on a road |
+
+## Chapter 9
+
+| Resource | Description |
+| --- | --- |
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter9/listing1.py) | Transcribing audio recordings to text |
+| [Audio](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/QuoteFromTheAlchemist.mp3) | A sample audio recording for transcription |
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter9/listing2.py) | A voice query interface for tabular data |
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter9/listing3.py) | A speech-to-speech translator |
