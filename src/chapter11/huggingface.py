@@ -14,7 +14,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     sentiment_task = transformers.pipeline(
-        'sentiment-analysis', 
         model='cardiffnlp/twitter-roberta-base-sentiment-latest')
     result = sentiment_task(args.review)
     print(result)
