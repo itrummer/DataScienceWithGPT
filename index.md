@@ -59,6 +59,7 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | --- | --- |
 | [Games](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/videogames.csv) | Tabular data set describing video game sales|
 | [Games SQLite](https://drive.google.com/file/d/1qdX3vbgVFkt14Wq5db09LuQolm8csSUQ/view?usp=sharing)| SQLite database file containing games data |
+| [Games NLQI](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/gamesnlqi.py) | A natural language query interface on the games database |
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing1.py) | Translating text questions about video games to SQL queries|
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing2) | Example prompt for translating question to SQL query|
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/chapter7/listing3.py) | Translating questions to SQL queries on arbitrary tabular data|
