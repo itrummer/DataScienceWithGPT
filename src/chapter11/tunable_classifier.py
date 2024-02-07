@@ -82,6 +82,7 @@ def call_llm(prompt, model, max_tokens, out_tokens):
         except Exception as e:
             print(f'Exception: {e}')
             time.sleep(nr_retries * 2)
+    
     raise Exception('Cannot query OpenAI model!')
 
 
