@@ -8,20 +8,6 @@ import jsonlines
 import pandas
 
 
-def create_prompt(text):
-    """ Create prompt for sentiment classification.
-    
-    Args:
-        text: text to classify.
-    
-    Returns:
-        Prompt for text classification.
-    """
-    task = 'Is the sentiment positive or negative?'
-    answer_format = 'Answer ("pos"/"neg")'
-    return f'{text}\n{task}\n{answer_format}:'
-
-
 def get_samples(df):
     """ Generate samples from data frame.
     
@@ -35,8 +21,7 @@ def get_samples(df):
     for _, row in df.iterrows():
 
         text = row['text']
-        user_content = create_prompt(text)
-        user_message = {'role':'user', 'content':user_content}
+        user_message = {'role':'user', 'content':text}
         
         label = row['sentiment']
         assistant_message = {'role':'assistant', 'content':label}

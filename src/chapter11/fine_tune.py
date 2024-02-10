@@ -9,7 +9,7 @@ import time
 
 
 if __name__ == '__main__':
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument('in_path', type=str, help='Path to input file')
     parser.add_argument('ai_key', type=str, help='OpenAI access key')
