@@ -6,10 +6,11 @@ Created on Nov 20, 2023
 import argparse
 import openai
 import playsound
-import requests
 import scipy.io.wavfile
 import sounddevice
 import time
+
+client = openai.OpenAI()
 
 
 def record(output_path):
@@ -35,7 +36,7 @@ def transcribe(audio_path):
         transcribed text.
     """
     with open(audio_path, 'rb') as audio_file:
-        transcription = openai.Audio.transcribe(
+        transcription = client.audio.transcriptions.create(
             file=audio_file, model='whisper-1')
         return transcription.text
 
@@ -68,46 +69,37 @@ def call_llm(prompt):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
-                model='gpt-3.5-turbo',
+            response = client.chat.completions.create(
+                model='gpt-4o',
                 messages=[
                     {'role':'user', 'content':prompt}
                     ]
                 )
-            return response['choices'][0]['message']['content']
+            return response.choices[0].message.content
         except:
             time.sleep(nr_retries * 2)
     raise Exception('Cannot query OpenAI model!')
 
 
-def generate_speech(ai_key, speech_text):
+def generate_speech(speech_text):
     """ Generates speech for given text.
     
     Args:
-        ai_key: access key for OpenAI.
         speech_text: generate speech for this text.
     
     Returns:
         query result.
     """
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {ai_key}'
-    }
-    payload = {'model': 'tts-1', 'input':speech_text, 'voice':'alloy'}
-    response = requests.post(
-        'https://api.openai.com/v1/audio/speech', 
-        headers=headers, json=payload)
+    response = client.audio.speech.create(
+        model='tts-1', voice='alloy', 
+        input=speech_text)
     return response.content
 
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('tolanguage', type=str, help='Target language')
     args = parser.parse_args()
-
-    openai.api_key = args.openaikey
     
     while True:
         
@@ -124,7 +116,7 @@ if __name__ == '__main__':
         translated = call_llm(prompt)
         print(f'Translated text: {translated}')
         
-        speech = generate_speech(args.openaikey, translated)
+        speech = generate_speech(translated)
         with open('translation.mp3', 'wb') as file:
             file.write(speech)
             

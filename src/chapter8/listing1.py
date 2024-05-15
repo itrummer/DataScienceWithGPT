@@ -7,6 +7,8 @@ import argparse
 import openai
 import time
 
+client = openai.OpenAI()
+
 
 def analyze_image(image_url, question):
     """ Use language model to answer question about image.
@@ -20,8 +22,8 @@ def analyze_image(image_url, question):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
-                model='gpt-4-vision-preview',
+            response = client.chat.completions.create(
+                model='gpt-4o',
                 messages=[
                     {'role':'user', 'content':[
                         {'type':'text', 'text':question},
@@ -31,7 +33,7 @@ def analyze_image(image_url, question):
                         }]
                     }]
                 )
-            return response['choices'][0]['message']['content']
+            return response.choices[0].message.content
         except:
             time.sleep(nr_retries * 2)
     raise Exception('Cannot query OpenAI model!')
@@ -40,12 +42,9 @@ def analyze_image(image_url, question):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('imageurl', type=str, help='URL to image')
     parser.add_argument('question', type=str, help='Question about the image')
     args = parser.parse_args()
-
-    openai.api_key = args.openaikey
     
     answer = analyze_image(args.imageurl, args.question)
     print(answer)

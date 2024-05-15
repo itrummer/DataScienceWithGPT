@@ -68,7 +68,7 @@ def call_llm(ai_key, prompt):
         'Authorization': f'Bearer {ai_key}'
     }
     payload = {
-        'model': 'gpt-4-vision-preview',
+        'model': 'gpt-4o',
         'messages': [
             {'role': 'user', 'content': prompt}
             ],
@@ -83,7 +83,6 @@ def call_llm(ai_key, prompt):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('peopledir', type=str, help='Contains images of people')
     parser.add_argument('picsdir', type=str, help='Contains images to label')
     parser.add_argument('outdir', type=str, help='Contains processing result')
@@ -95,7 +94,8 @@ if __name__ == '__main__':
     for person_name, person_image in people_images.items():
         for un_name, un_image in unlabeled_images.items():
             prompt = create_prompt(person_image, un_image)
-            response = call_llm(args.openaikey, prompt)
+            ai_key = os.getenv('OPENAI_API_KEY')
+            response = call_llm(ai_key, prompt)
             description = f'{un_name} versus {person_name}?'
             print(f'{description} -> {response}')
             

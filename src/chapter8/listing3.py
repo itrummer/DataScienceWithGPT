@@ -9,6 +9,8 @@ import base64
 import openai
 import time
 
+client = openai.OpenAI()
+
 
 def extract_frames(video_path):
     """ Extracts frames from a video.
@@ -62,13 +64,13 @@ def call_llm(prompt):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
-                model='gpt-4-vision-preview',
+            response = client.chat.completions.create(
+                model='gpt-4o',
                 messages=[
                     {'role':'user', 'content':prompt}
                     ]
                 )
-            return response['choices'][0]['message']['content']
+            return response.choices[0].message.content
         except:
             time.sleep(nr_retries * 2)
     raise Exception('Cannot query OpenAI model!')
@@ -77,11 +79,8 @@ def call_llm(prompt):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('videopath', type=str, help='Path of video file')
     args = parser.parse_args()
-    
-    openai.api_key = args.openaikey
     
     frames = extract_frames(args.videopath)
     prompt = create_prompt(frames)

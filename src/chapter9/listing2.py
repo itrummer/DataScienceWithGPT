@@ -5,10 +5,13 @@ Created on Nov 12, 2023
 '''
 import argparse
 import openai
+import re
 import scipy.io.wavfile
 import sounddevice
 import sqlite3
 import time
+
+client = openai.OpenAI()
 
 
 def get_structure(data_path):
@@ -51,7 +54,7 @@ def transcribe(audio_path):
         transcribed text.
     """
     with open(audio_path, 'rb') as audio_file:
-        transcription = openai.Audio.transcribe(
+        transcription = client.audio.transcriptions.create(
             file=audio_file, model='whisper-1')
         return transcription.text
 
@@ -86,13 +89,13 @@ def call_llm(prompt):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
-                model='gpt-3.5-turbo',
+            response = client.chat.completions.create(
+                model='gpt-4o',
                 messages=[
                     {'role':'user', 'content':prompt}
                     ]
                 )
-            return response['choices'][0]['message']['content']
+            return response.choices[0].message.content
         except:
             time.sleep(nr_retries * 2)
     raise Exception('Cannot query OpenAI model!')
@@ -120,10 +123,8 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
     parser.add_argument('dbpath', type=str, help='Path to SQLite data')
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     args = parser.parse_args()
 
-    openai.api_key = args.openaikey
     data_structure = get_structure(args.dbpath)
     
     while True:
@@ -138,7 +139,8 @@ if __name__ == '__main__':
         print(f'Question: {question}')
         
         prompt = create_prompt(data_structure, question)
-        query = call_llm(prompt)
+        answer = call_llm(prompt)
+        query = re.findall('```sql(.*)```', answer, re.DOTALL)[0]
         print(f'SQL: {query}')
 
         try:    

@@ -6,6 +6,8 @@ Created on Nov 10, 2023
 import argparse
 import openai
 
+client = openai.OpenAI()
+
 
 def transcribe(audio_path):
     """ Transcribe audio file to text.
@@ -17,7 +19,7 @@ def transcribe(audio_path):
         transcribed text.
     """
     with open(audio_path, 'rb') as audio_file:
-        transcription = openai.Audio.transcribe(
+        transcription = client.audio.transcriptions.create(
             file=audio_file, model='whisper-1')
         return transcription.text
 
@@ -25,11 +27,8 @@ def transcribe(audio_path):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('audiopath', type=str, help='Path to audio file')
     args = parser.parse_args()
-
-    openai.api_key = args.openaikey
 
     transcript = transcribe(args.audiopath)
     print(transcript)

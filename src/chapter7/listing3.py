@@ -5,8 +5,11 @@ Created on Nov 5, 2023
 '''
 import argparse
 import openai
+import re
 import sqlite3
 import time
+
+client = openai.OpenAI()
 
 
 def get_structure(data_path):
@@ -41,7 +44,6 @@ def create_prompt(description, question):
     parts += [description]
     parts += ['Translate this question into SQL query:']
     parts += [question]
-    parts += ['SQL Query:']
     return '\n'.join(parts)
 
 
@@ -56,13 +58,13 @@ def call_llm(prompt):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
-                model='gpt-3.5-turbo',
+            response = client.chat.completions.create(
+                model='gpt-4o',
                 messages=[
                     {'role':'user', 'content':prompt}
                     ]
                 )
-            return response['choices'][0]['message']['content']
+            return response.choices[0].message.content
         except:
             time.sleep(nr_retries * 2)
     raise Exception('Cannot query OpenAI model!')
@@ -90,10 +92,8 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
     parser.add_argument('dbpath', type=str, help='Path to SQLite data')
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     args = parser.parse_args()
 
-    openai.api_key = args.openaikey
     data_structure = get_structure(args.dbpath)
     
     while True:
@@ -103,11 +103,12 @@ if __name__ == '__main__':
             break
         
         prompt = create_prompt(data_structure, user_input)
-        query = call_llm(prompt)
+        answer = call_llm(prompt)
+        query = re.findall('```sql(.*)```', answer, re.DOTALL)[0]
         print(f'SQL: {query}')
 
         try:    
-            answer = process_query(args.dbpath, query)
-            print(f'Answer: {answer}')
+            result = process_query(args.dbpath, query)
+            print(f'Result: {result}')
         except:
             print('Error processing query! Try to reformulate.')
