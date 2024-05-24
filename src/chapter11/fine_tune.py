@@ -7,22 +7,22 @@ import argparse
 import openai
 import time
 
+client = openai.OpenAI()
+
 
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('in_path', type=str, help='Path to input file')
-    parser.add_argument('ai_key', type=str, help='OpenAI access key')
     args = parser.parse_args()
     
-    openai.api_key = args.ai_key
-    reply = openai.File.create(
-        file=open(args.in_path), purpose='fine-tune')
-    file_id = reply['id']
+    reply = client.files.create(
+        file=open(args.in_path, 'rb'), purpose='fine-tune')
+    file_id = reply.id
     
-    reply = openai.FineTuningJob.create(
+    reply = client.fine_tuning.jobs.create(
         training_file=file_id, model='gpt-3.5-turbo')
-    job_id = reply['id']
+    job_id = reply.id
     print(f'Job ID: {job_id}')
     
     status = None
@@ -34,10 +34,10 @@ if __name__ == '__main__':
         total_s = time.time() - start_s
         print(f'Fine-tuning since {total_s} seconds.')
         
-        reply = openai.FineTuningJob.retrieve(id=job_id)
-        status = reply['status']
+        reply = client.fine_tuning.jobs.retrieve(job_id)
+        status = reply.status
         print(f'Status: {status}')
     
     print(f'Fine-tuning is finished!')
-    model_id = reply['fine_tuned_model']
+    model_id = reply.fine_tuned_model
     print(f'Model ID: {model_id}')

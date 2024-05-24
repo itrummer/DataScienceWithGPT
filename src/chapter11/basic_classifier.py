@@ -8,6 +8,8 @@ import openai
 import pandas as pd
 import time
 
+client = openai.OpenAI()
+
 
 def create_prompt(text):
     """ Create prompt for sentiment classification.
@@ -34,7 +36,7 @@ def call_llm(prompt):
     """
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(
                 model='gpt-3.5-turbo',
                 messages=[
                     {'role':'user', 'content':prompt}
@@ -42,8 +44,8 @@ def call_llm(prompt):
                 temperature=0
                 )
             
-            answer = response['choices'][0]['message']['content']
-            nr_tokens = response['usage']['total_tokens']
+            answer = response.choices[0].message.content
+            nr_tokens = response.usage.total_tokens
             return answer, nr_tokens
         
         except Exception as e:
@@ -57,10 +59,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('file_path', type=str, help='Path to input file')
-    parser.add_argument('openai_key', type=str, help='OpenAI access key')
     args = parser.parse_args()
     
-    openai.api_key = args.openai_key
     df = pd.read_csv(args.file_path)
     
     nr_correct = 0

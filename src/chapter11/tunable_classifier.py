@@ -8,6 +8,8 @@ import openai
 import pandas as pd
 import time
 
+client = openai.OpenAI()
+
 
 def create_single_text_prompt(text, label):
     """ Create prompt for classifying one single text.
@@ -67,7 +69,7 @@ def call_llm(prompt, model, max_tokens, out_tokens):
     
     for nr_retries in range(1, 4):
         try:
-            response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(
                 model=model,
                 messages=[
                     {'role':'user', 'content':prompt}
@@ -75,8 +77,8 @@ def call_llm(prompt, model, max_tokens, out_tokens):
                 **optional_parameters, temperature=0
                 )
             
-            answer = response['choices'][0]['message']['content']
-            nr_tokens = response['usage']['total_tokens']
+            answer = response.choices[0].message.content
+            nr_tokens = response.usage.total_tokens
             return answer, nr_tokens
         
         except Exception as e:
@@ -90,7 +92,6 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('file_path', type=str, help='Path to input file')
-    parser.add_argument('openai_key', type=str, help='OpenAI access key')
     parser.add_argument('model', type=str, help='Name of OpenAI model')
     parser.add_argument('max_tokens', type=int, help='Maximal output size')
     parser.add_argument('out_tokens', type=str, help='Tokens to prioritize')
@@ -98,7 +99,6 @@ if __name__ == '__main__':
     parser.add_argument('sample_path', type=str, help='Path to samples')
     args = parser.parse_args()
     
-    openai.api_key = args.openai_key
     df = pd.read_csv(args.file_path)
     
     samples = pd.DataFrame()
