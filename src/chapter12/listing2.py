@@ -14,15 +14,12 @@ from langchain_openai import ChatOpenAI
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('openaikey', type=str, help='OpenAI access key')
     parser.add_argument('serpaikey', type=str, help='SERP API access key')
     parser.add_argument('dbpath', type=str, help='Path to SQLite database')
     parser.add_argument('question', type=str, help='A question to answer')
     args = parser.parse_args()
     
-    llm = ChatOpenAI(
-        openai_api_key=args.openaikey, 
-        temperature=0, model='gpt-4')
+    llm = ChatOpenAI(temperature=0, model='gpt-4o')
     db = SQLDatabase.from_uri(f'sqlite:///{args.dbpath}')
     extra_tools = load_tools(
         ['serpapi'], serpapi_api_key=args.serpaikey, llm=llm)
