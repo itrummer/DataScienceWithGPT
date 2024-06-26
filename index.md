@@ -91,6 +91,15 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
 | [Check Status](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/check_status.py) | Check status of fine-tuning job |
 
+## Chapter 10: Advanced Frameworks
+
+| Resource | Description |
+| --- | --- |
+| [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing1.py) | Using the LangChain framework for text classification |
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing2.py) | Building an agent for data analysis using the LangChain framework |
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing3.py) | Enhancing the data analysis agent with a custom currency converter tool |
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question answering tool over multimodal data with LlamaIndex |
+
 ## Chapter 11: The Transformer
 
 | Resource | Description |
