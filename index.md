@@ -73,6 +73,7 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 ## Chapter 8: GPT Alternatives
 
 | Resource | Description |
+| --- | --- |
 | [AI21 - Generic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using generic AI21 models for text completion |
 | [AI21 - Paraphrase](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21paraphrase.py) | Using specialized AI21 models for paraphrasing |
 | [Anthropic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/anthropic_claude.py) | Use Anthropic's Claude for text completion |
@@ -83,6 +84,7 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 ## Chapter 9: Optimizing Cost and Quality
 
 | Resource | Description |
+| --- | --- |
 | [Untuned Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/basic_classifier.py) | Basic version of text classification tool |
 | [Tunable Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/tunable_classifier.py) | Tunable version of text classification tool |
 | [Prepare Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/prep_fine_tuning.py) | Prepares model fine-tuning for sentiment classification |
