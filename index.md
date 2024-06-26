@@ -70,6 +70,16 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/audio/listing2.py) | A voice query interface for tabular data |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/audio/listing3.py) | A speech-to-speech translator |
 
+## Chapter 8: GPT Alternatives
+
+| Resource | Description |
+| [AI21 - Generic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using generic AI21 models for text completion |
+| [AI21 - Paraphrase](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21paraphrase.py) | Using specialized AI21 models for paraphrasing |
+| [Anthropic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/anthropic_claude.py) | Use Anthropic's Claude for text completion |
+| [Cohere](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/cohereqa.py) | Using Cohere's Coral model for question answering |
+| [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using Google's Gemini model for question answering |
+| [Hugging Face](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/huggingface.py) | Using Hugging Face's models for sentiment classification |
+
 ## Chapter 11: The Transformer
 
 | Resource | Description |
