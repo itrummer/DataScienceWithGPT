@@ -35,7 +35,6 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/text/listing2.py) | Extracting structured data from text documents |
 | [Textmix.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/textmix.csv) | Mix of poems and emails, to be used for document clustering |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/text/listing3.py) | Clustering text documents via their embedding vectors |
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/text/listing4.py) | Example result when using GPT for text embedding |
 
 ## Chapter 5: Analyzing Structured Data
 
