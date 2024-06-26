@@ -80,6 +80,15 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using Google's Gemini model for question answering |
 | [Hugging Face](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/huggingface.py) | Using Hugging Face's models for sentiment classification |
 
+## Chapter 9: Optimizing Cost and Quality
+
+| Resource | Description |
+| [Untuned Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/basic_classifier.py) | Basic version of text classification tool |
+| [Tunable Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/tunable_classifier.py) | Tunable version of text classification tool |
+| [Prepare Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/prep_fine_tuning.py) | Prepares model fine-tuning for sentiment classification |
+| [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
+| [Check Status](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/check_status.py) | Check status of fine-tuning job |
+
 ## Chapter 11: The Transformer
 
 | Resource | Description |
