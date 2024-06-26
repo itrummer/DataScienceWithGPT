@@ -22,12 +22,8 @@ This Web site links to resources for the book "AI-Assisted Data Science" by Imma
 | Resource | Description |
 | --- | --- |
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing1.py) | Listing available GPT models|
-| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing2.py) | Example output listing available models |
-| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing3.py) | Making GPT tell us a story (text completion)|
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing4.py) | Extract of output for text completion|
-| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing5.py) | Customizing story generation via parameters|
-| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing6.py) | Text completion with OpenAI's chat models|
-| [Listing 7](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing7.py) | Example output of chat completion|
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing2.py) | Making GPT tell us a story (text completion)|
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing3.py) | Customizing story generation via parameters|
 
 ## Chapter 4: Analyzing Text Data
 
