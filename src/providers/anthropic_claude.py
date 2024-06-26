@@ -3,8 +3,8 @@ Created on Jan 14, 2024
 
 @author: immanueltrummer
 '''
-from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 import argparse
+from anthropic import Anthropic
 
 
 if __name__ == '__main__':
@@ -16,9 +16,13 @@ if __name__ == '__main__':
     
     anthropic = Anthropic(api_key=args.ai_key)
     
-    prompt = f'{HUMAN_PROMPT}{args.question}{AI_PROMPT}'
-    completion = anthropic.completions.create(
-        model='claude-2.1', max_tokens_to_sample=100,
-        prompt=prompt)
+    completion = anthropic.messages.create(
+        model='claude-3-opus-20240229', 
+        max_tokens=100,
+        messages=[
+            {
+                'role':'user', 
+                'content':args.question
+             }])
     
-    print(completion.completion)
+    print(completion.content)

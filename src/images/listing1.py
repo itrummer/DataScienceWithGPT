@@ -28,7 +28,7 @@ def analyze_image(image_url, question):
                     {'role':'user', 'content':[
                         {'type':'text', 'text':question},
                         {'type':'image_url', 'image_url':{
-                            'url':image_url
+                            'url':image_url, 'detail':'low'
                             }
                         }]
                     }]
