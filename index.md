@@ -1,5 +1,3 @@
-# Multimodal Data Analysis with LLMs
-
 # About the Book
 
 Get the book [here](https://www.manning.com/books/ai-assisted-data-science)!
@@ -24,16 +22,16 @@ Topics covered in the book include:
 
 [Immanuel Trummer](https://www.itrummer.org) is an associate professor at Cornell University and a member of the Cornell Database Group. His research publications have been selected for various awards, including ``Best of SIGMOD'', ``Best of VLDB'', ``SIGMOD Research Highlight Award'', and ``CACM Research Highlight Award'', and often focus on applying LLMs to data problems. He has given various tutorials on LLMs and his courses on data management has received over a million views on YouTube.
 
-## Book Resources
+# Book Resources
 
-### Chapter 1: Analyzing Data with Large Language Models
+## Chapter 1: Analyzing Data with Large Language Models
 
 | Resource | Description |
 | --- | --- |
 | [Prompt](https://docs.google.com/document/d/1f3M2PV5mgy1kyg3J5C4QiiBqcsxxz4SBXYzHSJQ0NEw/edit?usp=sharing)|  Example prompt for product review classification |
 | [Template](https://docs.google.com/document/d/1eDnrMe1G5UapYswZrIdRDxlEQTTKupVVyWUaQR7pOZM/edit?usp=sharing)| Prompt template for product review classification |
 
-### Chapter 2: A Chat with ChatGPT
+## Chapter 2: A Chat with ChatGPT
 
 | Resource | Description |
 | --- | --- |
@@ -41,7 +39,7 @@ Topics covered in the book include:
 | [Review](https://docs.google.com/document/d/1LKVnR62O5iIzJNS0urvGDuc5GQ9zLkT-XRvrwhVNMpg/edit?usp=sharing)| Example review of BananaBook laptop|
 | [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
 
-### Chapter 3: The OpenAI API
+## Chapter 3: The OpenAI API
 
 | Resource | Description |
 | --- | --- |
@@ -49,7 +47,7 @@ Topics covered in the book include:
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing2.py) | Making GPT tell us a story (text completion)|
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/api/listing3.py) | Customizing story generation via parameters|
 
-### Chapter 4: Analyzing Text Data
+## Chapter 4: Analyzing Text Data
 
 | Resource | Description |
 | --- | --- |
@@ -60,7 +58,7 @@ Topics covered in the book include:
 | [Textmix.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/textmix.csv) | Mix of poems and emails, to be used for document clustering |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/text/listing3.py) | Clustering text documents via their embedding vectors |
 
-### Chapter 5: Analyzing Structured Data
+## Chapter 5: Analyzing Structured Data
 
 | Resource | Description |
 | --- | --- |
@@ -74,7 +72,7 @@ Topics covered in the book include:
 | [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing5) | Example prompt for translating questions into Cypher queries|
 | [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing6.py) | Translating questions about movies into Cypher queries|
 
-### Chapter 6: Analyzing Images and Videos
+## Chapter 6: Analyzing Images and Videos
 
 | Resource | Description |
 | --- | --- |
@@ -85,7 +83,7 @@ Topics covered in the book include:
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/images/listing3.py) | Generating suitable titles for videos |
 | [Cars](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/cars.mp4) | A video of cars on a road |
 
-### Chapter 7: Analyzing Audio Data
+## Chapter 7: Analyzing Audio Data
 
 | Resource | Description |
 | --- | --- |
@@ -94,7 +92,7 @@ Topics covered in the book include:
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/audio/listing2.py) | A voice query interface for tabular data |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/audio/listing3.py) | A speech-to-speech translator |
 
-### Chapter 8: GPT Alternatives
+## Chapter 8: GPT Alternatives
 
 | Resource | Description |
 | --- | --- |
@@ -105,7 +103,7 @@ Topics covered in the book include:
 | [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using Google's Gemini model for question answering |
 | [Hugging Face](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/huggingface.py) | Using Hugging Face's models for sentiment classification |
 
-### Chapter 9: Optimizing Cost and Quality
+## Chapter 9: Optimizing Cost and Quality
 
 | Resource | Description |
 | --- | --- |
@@ -115,7 +113,7 @@ Topics covered in the book include:
 | [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
 | [Check Status](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/check_status.py) | Check status of fine-tuning job |
 
-### Chapter 10: Advanced Frameworks
+## Chapter 10: Advanced Frameworks
 
 | Resource | Description |
 | --- | --- |
@@ -124,13 +122,13 @@ Topics covered in the book include:
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing3.py) | Enhancing the data analysis agent with a custom currency converter tool |
 | [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question answering tool over multimodal data with LlamaIndex |
 
-### Chapter 11: The Transformer
+## Chapter 11: The Transformer
 
 | Resource | Description |
 | --- | --- |
 | [Visualizations](https://github.com/jessevig/bertviz) | Notebook for visualizing attention in the BERT model|
 
-### Chapter 12: Transfer Learning
+## Chapter 12: Transfer Learning
 
 | Resource | Description |
 | --- | --- |
