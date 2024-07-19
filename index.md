@@ -20,7 +20,7 @@ Topics covered in the book include:
 
 ## The Author
 
-[Immanuel Trummer](https://www.itrummer.org) is an associate professor at Cornell University and a member of the Cornell Database Group. His research publications have been selected for various awards, including ``Best of SIGMOD'', ``Best of VLDB'', ``SIGMOD Research Highlight Award'', and ``CACM Research Highlight Award'', and often focus on applying LLMs to data problems. He has given various tutorials on LLMs and his courses on data management has received over a million views on YouTube.
+[Immanuel Trummer](https://www.itrummer.org) is an associate professor at Cornell University and a member of the Cornell Database Group. His research publications have been selected for various awards, including "Best of SIGMOD", "Best of VLDB", "SIGMOD Research Highlight Award", and "CACM Research Highlight Award", and often focus on applying LLMs to data problems. He has given various tutorials on LLMs and his courses on data management have received over a million views on YouTube.
 
 # Book Resources
 
