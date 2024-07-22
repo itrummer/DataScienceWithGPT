@@ -145,3 +145,4 @@ Topics covered in the book include:
 | [Speech Transcription](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/audio.py) | Transcribing audio data (speech) to text representation |
 | [Text-to-SQL](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/nlqi.py) | Querying an SQLite database in natural language |
 | [Reviews.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews.csv) | Small set of movie reviews for sentiment classification |
+| [games.db](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/games.db) | SQLite database with data on vide game sales |
