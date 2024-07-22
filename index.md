@@ -133,3 +133,15 @@ Topics covered in the book include:
 | Resource | Description |
 | --- | --- |
 | [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Roberta Transformer model |
+
+# Video Tutorial
+
+## Tutorial Resources
+
+| Resource | Description |
+| --- | --- |
+| [Text Classification](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/sentiment_classification.py) | Classifying reviews based on the underlying sentiment |
+| [Image Analysis](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/image_qa.py) | Answering questions about pairs of images |
+| [Speech Transcription](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/audio.py) | Transcribing audio data (speech) to text representation |
+| [Text-to-SQL](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tutorial/nlqi.py) | Querying an SQLite database in natural language |
+| [Reviews.csv](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews.csv) | Small set of movie reviews for sentiment classification |
