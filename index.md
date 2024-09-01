@@ -1,6 +1,6 @@
-<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300'>
-
 # About the Book
+
+<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300'>
 
 Get the book [here](https://www.manning.com/books/analyzing-multimodal-data-with-large-language-models)!
 
