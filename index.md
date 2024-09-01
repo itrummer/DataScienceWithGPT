@@ -1,10 +1,10 @@
+<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300'>
+
 # About the Book
 
 Get the book [here](https://www.manning.com/books/analyzing-multimodal-data-with-large-language-models)!
 
 ## The Book
-
-<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300'>
 
 Large language models (LLMs) have recently led to stunning advances in areas like text processing and code generation. The latest generation of language models, including OpenAI's GPT-4 Omni model, is multimodal. This means they process various data types such as text, images, and audio data. This book teaches readers how to leverage LLMs to perform sophisticated, multimodal data analysis with just a few lines of Python code.
 
