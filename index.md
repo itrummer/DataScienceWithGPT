@@ -41,6 +41,7 @@ Topics covered in the book include:
 | --- | --- |
 | [ChatGPT](https://chat.openai.com/) | Link to the ChatGPT Web interface by OpenAI |
 | [Review](https://docs.google.com/document/d/1LKVnR62O5iIzJNS0urvGDuc5GQ9zLkT-XRvrwhVNMpg/edit?usp=sharing)| Example review of BananaBook laptop|
+| [Review Table](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews_table.csv) | Table with classification results for each review |
 | [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
 
 ## Chapter 3: The OpenAI API
