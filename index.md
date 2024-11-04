@@ -102,7 +102,7 @@ Topics covered in the book include:
 | [AI21 - Paraphrase](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21paraphrase.py) | Using specialized AI21 models for paraphrasing |
 | [Anthropic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/anthropic_claude.py) | Use Anthropic's Claude for text completion |
 | [Cohere](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/cohereqa.py) | Using Cohere's Coral model for question answering |
-| [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using Google's Gemini model for question answering |
+| [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/google.py) | Using Google's Gemini model for question answering |
 | [Hugging Face](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/huggingface.py) | Using Hugging Face's models for sentiment classification |
 
 ## Chapter 9: Optimizing Cost and Quality
