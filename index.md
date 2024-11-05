@@ -123,19 +123,8 @@ Topics covered in the book include:
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing1.py) | Using the LangChain framework for text classification |
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing2.py) | Building an agent for data analysis using the LangChain framework |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing3.py) | Enhancing the data analysis agent with a custom currency converter tool |
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question answering tool over multimodal data with LlamaIndex |
-
-## Chapter 11: The Transformer
-
-| Resource | Description |
-| --- | --- |
-| [Visualizations](https://github.com/jessevig/bertviz) | Notebook for visualizing attention in the BERT model|
-
-## Chapter 12: Transfer Learning
-
-| Resource | Description |
-| --- | --- |
-| [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Roberta Transformer model |
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question-answering tool over multimodal data with LlamaIndex |
+| [Banana Reports](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/bananareports.zip) | Collection of business reports in different file formats |
 
 # Video Tutorial
 
