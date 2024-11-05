@@ -110,6 +110,7 @@ Topics covered in the book include:
 | Resource | Description |
 | --- | --- |
 | [Untuned Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/basic_classifier.py) | Basic version of text classification tool |
+| [Reviews Training](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/train_reviews.csv) | Data set with classified reviews for few-shot learning |
 | [Tunable Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/tunable_classifier.py) | Tunable version of text classification tool |
 | [Prepare Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/prep_fine_tuning.py) | Prepares model fine-tuning for sentiment classification |
 | [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
