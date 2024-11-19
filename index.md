@@ -1,6 +1,6 @@
 # About the Book
 
-Get the book [here](https://www.manning.com/books/analyzing-multimodal-data-with-large-language-models)!
+Get the book [here](https://www.manning.com/books/llms-in-action)!
 
 ## The Book
 
@@ -9,16 +9,15 @@ Get the book [here](https://www.manning.com/books/analyzing-multimodal-data-with
 Large language models (LLMs) have recently led to stunning advances in areas like text processing and code generation. The latest generation of language models, including OpenAI's GPT-4 Omni model, is multimodal. This means they process various data types such as text, images, and audio data. This book teaches readers how to leverage LLMs to perform sophisticated, multimodal data analysis with just a few lines of Python code.
 
 Topics covered in the book include:
-- Using and configuring LLMs via OpenAI's Python API
+- Using LLMs via OpenAI's Python library
 - Analyzing text data with LLMs
 - Analyzing images and videos
-- Natural language query interfaces over tabular data
+- Natural language query interfaces for tabular data
 - Prompt engineering and few-shot learning
 - Optimizing cost and quality by fine-tuning
 - LLM providers (OpenAI, Anthropic, Cohere, Google, HuggingFace, AI21)
 - Building complex data analysis pipelines with LangChain and LlamaIndex
 - Building LLM-based agents for data analysis
-- Foundations of Transformer networks and transfer learning
 
 ## The Author
 
@@ -44,7 +43,7 @@ Topics covered in the book include:
 | [Review Table](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews_table.csv) | Table with classification results for each review |
 | [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
 
-## Chapter 3: The OpenAI API
+## Chapter 3: The OpenAI Python Library
 
 | Resource | Description |
 | --- | --- |
@@ -116,7 +115,7 @@ Topics covered in the book include:
 | [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
 | [Check Status](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/check_status.py) | Check status of fine-tuning job |
 
-## Chapter 10: Advanced Frameworks
+## Chapter 10: Software Frameworks
 
 | Resource | Description |
 | --- | --- |
