@@ -12,11 +12,11 @@ Topics covered in the book include:
 - Using LLMs via OpenAI's Python library
 - Analyzing text data with LLMs
 - Analyzing images and videos
-- Natural language query interfaces for tabular data
+- Natural language interfaces for tabular data
 - Prompt engineering and few-shot learning
 - Optimizing cost and quality by fine-tuning
-- LLM providers (OpenAI, Anthropic, Cohere, Google, HuggingFace, AI21)
-- Building complex data analysis pipelines with LangChain and LlamaIndex
+- Anthropic, Cohere, Google, HuggingFace, and AI21
+- Building applications with LangChain and LlamaIndex
 - Building LLM-based agents for data analysis
 
 ## The Author
