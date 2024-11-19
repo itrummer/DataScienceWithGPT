@@ -1,11 +1,5 @@
 # About the Book
 
-Get the book [here](https://www.manning.com/books/llms-in-action)!
-
-## The Book
-
-<!-- <img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300px' style='margin-left:20px;border:2px solid black'> -->
-
 Large language models (LLMs) have recently led to stunning advances in areas like text processing and code generation. The latest generation of language models, including OpenAI's GPT-4 Omni model, is multimodal. This means they process various data types such as text, images, and audio data. This book teaches readers how to leverage LLMs to perform sophisticated, multimodal data analysis with just a few lines of Python code.
 
 Topics covered in the book include:
@@ -19,7 +13,7 @@ Topics covered in the book include:
 - Building applications with LangChain and LlamaIndex
 - Building LLM-based agents for data analysis
 
-## The Author
+# About the Author
 
 [Immanuel Trummer](https://www.itrummer.org) is an associate professor at Cornell University and a member of the Cornell Database Group. His research publications have been selected for various awards, including "Best of SIGMOD", "Best of VLDB", "SIGMOD Research Highlight Award", and "CACM Research Highlight Award", and often focus on applying LLMs to data problems. He has given various tutorials on LLMs and his courses on data management have received over a million views on YouTube.
 
