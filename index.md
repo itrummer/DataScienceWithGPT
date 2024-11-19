@@ -4,7 +4,7 @@ Get the book [here](https://www.manning.com/books/llms-in-action)!
 
 ## The Book
 
-<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300px' style='margin-left:20px;border:10px solid black'>
+<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300px' style='margin-left:20px;border:2px solid black'>
 
 Large language models (LLMs) have recently led to stunning advances in areas like text processing and code generation. The latest generation of language models, including OpenAI's GPT-4 Omni model, is multimodal. This means they process various data types such as text, images, and audio data. This book teaches readers how to leverage LLMs to perform sophisticated, multimodal data analysis with just a few lines of Python code.
 
