@@ -60,6 +60,7 @@ Topics covered in the book include:
 
 | Resource | Description |
 | --- | --- |
+| [SQLite Installation](https://www.prisma.io/dataguide/sqlite/setting-up-a-local-sqlite-database) | Hints for installing the SQLite DBMS |
 | [Games](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/videogames.csv) | Tabular data set describing video game sales|
 | [Games SQLite](https://drive.google.com/file/d/1qdX3vbgVFkt14Wq5db09LuQolm8csSUQ/view?usp=sharing)| SQLite database file containing games data |
 | [Games NLQI](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/gamesnlqi.py) | A natural language query interface on the games database |
