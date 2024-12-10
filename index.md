@@ -1,26 +1,19 @@
 # About the Book
 
-Get the book [here](https://www.manning.com/books/analyzing-multimodal-data-with-large-language-models)!
-
-## The Book
-
-<img align='right' src='https://raw.githubusercontent.com/itrummer/DataScienceWithGPT/main/assets/BookCover.jpg' width='300px' style='margin-left:20px'>
-
 Large language models (LLMs) have recently led to stunning advances in areas like text processing and code generation. The latest generation of language models, including OpenAI's GPT-4 Omni model, is multimodal. This means they process various data types such as text, images, and audio data. This book teaches readers how to leverage LLMs to perform sophisticated, multimodal data analysis with just a few lines of Python code.
 
 Topics covered in the book include:
-- Using and configuring LLMs via OpenAI's Python API
+- Using LLMs via OpenAI's Python library
 - Analyzing text data with LLMs
 - Analyzing images and videos
-- Natural language query interfaces over tabular data
+- Natural language interfaces for tabular data
 - Prompt engineering and few-shot learning
 - Optimizing cost and quality by fine-tuning
-- LLM providers (OpenAI, Anthropic, Cohere, Google, HuggingFace, AI21)
-- Building complex data analysis pipelines with LangChain and LlamaIndex
+- Anthropic, Cohere, Google, HuggingFace, and AI21
+- Building applications with LangChain and LlamaIndex
 - Building LLM-based agents for data analysis
-- Foundations of Transformer networks and transfer learning
 
-## The Author
+# About the Author
 
 [Immanuel Trummer](https://www.itrummer.org) is an associate professor at Cornell University and a member of the Cornell Database Group. His research publications have been selected for various awards, including "Best of SIGMOD", "Best of VLDB", "SIGMOD Research Highlight Award", and "CACM Research Highlight Award", and often focus on applying LLMs to data problems. He has given various tutorials on LLMs and his courses on data management have received over a million views on YouTube.
 
@@ -41,9 +34,10 @@ Topics covered in the book include:
 | --- | --- |
 | [ChatGPT](https://chat.openai.com/) | Link to the ChatGPT Web interface by OpenAI |
 | [Review](https://docs.google.com/document/d/1LKVnR62O5iIzJNS0urvGDuc5GQ9zLkT-XRvrwhVNMpg/edit?usp=sharing)| Example review of BananaBook laptop|
+| [Review Table](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/reviews_table.csv) | Table with classification results for each review |
 | [BananaDB](https://colab.research.google.com/drive/10AT3uNRxQRDJU5giWWcktfS2BuoLGASE?usp=sharing) | Notebook supporting queries on the BananaDB database|
 
-## Chapter 3: The OpenAI API
+## Chapter 3: The OpenAI Python Library
 
 | Resource | Description |
 | --- | --- |
@@ -66,15 +60,13 @@ Topics covered in the book include:
 
 | Resource | Description |
 | --- | --- |
+| [SQLite Installation](https://www.prisma.io/dataguide/sqlite/setting-up-a-local-sqlite-database) | Hints for installing the SQLite DBMS |
 | [Games](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/videogames.csv) | Tabular data set describing video game sales|
 | [Games SQLite](https://drive.google.com/file/d/1qdX3vbgVFkt14Wq5db09LuQolm8csSUQ/view?usp=sharing)| SQLite database file containing games data |
 | [Games NLQI](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/gamesnlqi.py) | A natural language query interface on the games database |
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing1.py) | Translating text questions about video games to SQL queries|
-| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing2) | Example prompt for translating question to SQL query|
-| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing3.py) | Translating questions to SQL queries on arbitrary tabular data|
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing4) | Example interaction with natural language query interface|
-| [Listing 5](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing5) | Example prompt for translating questions into Cypher queries|
-| [Listing 6](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing6.py) | Translating questions about movies into Cypher queries|
+| [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing2.py) | Translating questions to SQL queries on arbitrary tabular data|
+| [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/tables/listing3.py) | Translating questions about movies into Cypher queries|
 
 ## Chapter 6: Analyzing Images and Videos
 
@@ -104,7 +96,7 @@ Topics covered in the book include:
 | [AI21 - Paraphrase](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21paraphrase.py) | Using specialized AI21 models for paraphrasing |
 | [Anthropic](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/anthropic_claude.py) | Use Anthropic's Claude for text completion |
 | [Cohere](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/cohereqa.py) | Using Cohere's Coral model for question answering |
-| [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/ai21generic.py) | Using Google's Gemini model for question answering |
+| [Google](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/google.py) | Using Google's Gemini model for question answering |
 | [Hugging Face](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/providers/huggingface.py) | Using Hugging Face's models for sentiment classification |
 
 ## Chapter 9: Optimizing Cost and Quality
@@ -112,31 +104,21 @@ Topics covered in the book include:
 | Resource | Description |
 | --- | --- |
 | [Untuned Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/basic_classifier.py) | Basic version of text classification tool |
+| [Reviews Training](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/train_reviews.csv) | Data set with classified reviews for few-shot learning |
 | [Tunable Classifier](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/tunable_classifier.py) | Tunable version of text classification tool |
 | [Prepare Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/prep_fine_tuning.py) | Prepares model fine-tuning for sentiment classification |
 | [Start Fine-Tuning](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/fine_tune.py) | Start fine-tuning for sentiment classification |
 | [Check Status](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/optimization/check_status.py) | Check status of fine-tuning job |
 
-## Chapter 10: Advanced Frameworks
+## Chapter 10: Software Frameworks
 
 | Resource | Description |
 | --- | --- |
 | [Listing 1](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing1.py) | Using the LangChain framework for text classification |
 | [Listing 2](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing2.py) | Building an agent for data analysis using the LangChain framework |
 | [Listing 3](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing3.py) | Enhancing the data analysis agent with a custom currency converter tool |
-| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question answering tool over multimodal data with LlamaIndex |
-
-## Chapter 11: The Transformer
-
-| Resource | Description |
-| --- | --- |
-| [Visualizations](https://github.com/jessevig/bertviz) | Notebook for visualizing attention in the BERT model|
-
-## Chapter 12: Transfer Learning
-
-| Resource | Description |
-| --- | --- |
-| [Roberta XLM](https://huggingface.co/xlm-roberta-base) | Example description of Roberta Transformer model |
+| [Listing 4](https://github.com/itrummer/DataScienceWithGPT/blob/main/src/frameworks/listing4.py) | Building a question-answering tool over multimodal data with LlamaIndex |
+| [Banana Reports](https://github.com/itrummer/DataScienceWithGPT/blob/main/data/bananareports.zip) | Collection of business reports in different file formats |
 
 # Video Tutorial
 
