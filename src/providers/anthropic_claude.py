@@ -17,7 +17,7 @@ if __name__ == '__main__':
     anthropic = Anthropic(api_key=args.ai_key)
     
     completion = anthropic.messages.create(
-        model='claude-3-opus-20240229', 
+        model='claude-3-5-sonnet-20241022', 
         max_tokens=100,
         messages=[
             {
